@@ -10,8 +10,10 @@ function App() {
     <>
       <Header/>
       <main>
-        <ToDoBox/>
-        <AddBox/>
+        <div className="container">
+          <ToDoBox/>
+          <AddBox/>
+        </div>
       </main>
     </>
   )

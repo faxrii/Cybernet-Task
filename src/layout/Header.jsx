@@ -1,10 +1,15 @@
-import React from 'react'
-
+import React, { useState } from 'react'
+import classes from './style.module.css'
 const Header = () => {
   return (
     <>
-      <h2>Kanbon Board</h2>
-      <input type="text" placeholder='search' />
+      <header>
+         <div className="container">
+         <h2 className={classes.heading}>Kanbon Board</h2>
+      <input type="text" placeholder='search' className={classes.headingInput}/>
+      
+         </div>
+      </header>
     </>
   )
 }

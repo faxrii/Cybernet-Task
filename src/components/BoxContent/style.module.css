@@ -1,0 +1,26 @@
+.btn{
+    background-color: rgb(0, 196, 0);
+    color: #fff;
+    width: 100%;
+    padding: 10px 0px;
+    border-radius: 4px;
+    border: none;
+    margin-top: 15px;
+}
+.toDoItem,.toDoInput{
+    padding: 10px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+}
+
+.toDoInput{
+    margin-top: 15px;
+}
+.icon{
+    cursor: pointer;
+}

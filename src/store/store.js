@@ -12,9 +12,11 @@ const cardSlice=createSlice({
         },
         removeCard:(state,action)=>{
             console.log(action.payload,state.value)
-            return state.value.filter((item)=>{
-                return item.id!=action.payload.id
-            })
+            return {
+                value:state.value.filter((item)=>{
+                    return item.id!=action.payload.id
+                })
+            }
         }
     }
 })
